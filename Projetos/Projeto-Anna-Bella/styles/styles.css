@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/fundo.png');
+    font-family: 'Roboto', sans-serif;
+}
+h3{
+    color: dimgray;
+    font-weight: bold;
+    margin-left: 10px;
+}
+p{
+    color: dimgray ;
+
+}
+form{
+    padding: 20px;
+    box-sizing: border-box;
+}
+input{
+    width: 98%;
+    height: 30px;
+    border-radius: 5px;
+    border:1 solid #fff;
+}
+textarea{
+    width: 97%;
+    border-radius: 5px;
+    padding: 5px;
+}
+.h3{
+    text-align: center;
+}
+
+#botao{
+    font-weight: bold;
+}
+
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+.displayed{
+    display: block;
+    margin: 0 auto;
+}
+.menu ul, li{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+.menu ul{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.menu li{
+    list-style: none;
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;  
+ 
+}
+.menu li a{
+    text-decoration: none;
+    color:#4b566a;
+    display: block;
+   
+}
+.menu li a:hover{
+    color: #3f434d;
+   
+}
+
+.descricao{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 10px;
+}
+.descricao p{
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.bloco{
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.imagem{
+    padding:0 10px 10px 10px;
+    box-sizing: border-box;
+    width: 50%;
+}
+.imagem img{
+    width: 100%;
+}
+.artigo{
+   width: 40%;
+   padding:0 10px;
+   box-sizing: border-box;
+}
+.artigo p{
+    margin-top: 0;
+    text-align: justify;
+}
