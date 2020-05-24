@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+}
+
+section {
+    display: flex;
+   
+}
+
+article,aside,footer{
+    padding: 10px;
+}
+
+nav{
+    flex:1;
+    background-color: yellow;
+    padding: 10px 0;
+}
+
+article
+{
+    flex: 6;
+    background-color: aquamarine;
+}
+
+aside{
+    flex: 2;
+    background-color: burlywood;
+}
+
+footer{
+    height: 60px;
+
+}
+
+.container{
+    border: 1px solid red;
+    width: 79%;
+    margin: 0 auto;
+    min-width: 912px;
+}
+
+.banner{
+    background:url('../img/cabecalho2.jpg') no-repeat center;
+    height: 300px;
+    
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu a{
+
+    display: block;
+    height: 30px;
+    width: 150px;
+    color: black;
+    text-indent: 20px;
+    line-height: 30px;
+    text-decoration: none;
+}
+.menu a:hover{
+    background-color:orange;
+}
+
+img .img-noticia{
+    width: 98%;
+    padding: 2%;
+}
